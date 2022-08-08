@@ -1,4 +1,5 @@
-﻿Console.Write("Введите число: ");
+﻿// Напишите программу, которая на вход принимает число а выводит день недели
+Console.Write("Введите число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 if (numberA == 1)
 {
