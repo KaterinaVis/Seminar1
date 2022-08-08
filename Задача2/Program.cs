@@ -1,27 +1,34 @@
-﻿System.Console.Write("Введите день(число) недели: ");
-int number = Convert.ToInt32(Console.ReadLine());
-
-if (number == 1){
-System.Console.WriteLine("Понедельник");
+﻿Console.Write("Введите число: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+if (numberA == 1)
+{
+Console.WriteLine("Понедельник");
 }
-else if(number == 2){
-System.Console.WriteLine("Вторник");
+else if (numberA == 2)
+{
+Console.WriteLine("Вторник");
 }
-else if ( number == 3){
-System.Console.WriteLine("Среда");
+else if (numberA == 3)
+{
+Console.WriteLine("Среда");
 }
-else if ( number == 4){
-System.Console.WriteLine("Четверг");
+else if (numberA == 4)
+{
+Console.WriteLine("Четверг");
 }
-else if ( number == 5){
-System.Console.WriteLine("Пятница");
+else if (numberA == 5)
+{
+Console.WriteLine("Пятница");
 }
-else if( number == 6){
-System.Console.WriteLine("Суббота");
+else if (numberA == 6)
+{
+Console.WriteLine("Суббота");
 }
-else if( number == 7){
-System.Console.WriteLine("Воскресенье");
+else if (numberA == 7)
+{
+Console.WriteLine("Воскресенье");
 }
-else{
-System.Console.WriteLine("Ай-ай,хулиган");
+else
+{
+Console.WriteLine("Нет такого дня недели");
 }
